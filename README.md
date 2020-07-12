@@ -10,7 +10,7 @@ const Fraser = () => {
       <ul>
       {likes.map((thing) => <li>thing</li>)}
       </ul>
-      <input>
+      <button onClick={() => console.log("Hello!")}>Say Hello</button>
     </div>
   );
 }
